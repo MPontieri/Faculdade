@@ -44,7 +44,7 @@ int main(void) {
 
     while (1) {
         system("cls");
-        printf("\n==== Super Petshop Matheus pontieri BCC ====\n\n");
+        printf("\n==== Super Petshop Matheus Pontieri BCC ====\n\n");
         printf("1 - Cadastro cliente\n");
         printf("2 - Banho ou Tosa\n");
         printf("3 - Agendar consulta\n");
@@ -58,7 +58,7 @@ int main(void) {
         switch (opcao) {
             case 1: {
                 while (quant_cliente < MAX) {
-                    printf("\nSuper Petshop Matheus pontieri BCC\n\n");
+                    printf("\nSuper Petshop Matheus Pontieri BCC\n\n");
 
                     printf("Digite o nome do cliente: ");
                     scanf(" %[^\n]s", cliente[quant_cliente].nome);
@@ -83,7 +83,7 @@ int main(void) {
 
             case 2: {
                 while (quant_pet < MAX) {
-                    printf("\nSuper Petshop Matheus pontieri BCC\n\n");
+                    printf("\nSuper Petshop Matheus Pontieri BCC\n\n");
 
                     printf("Digite o nome do Pet: ");
                     scanf(" %[^\n]s", pet[quant_pet].pet_nome);
@@ -108,7 +108,7 @@ int main(void) {
 
             case 3: {
                 while (quant_cons < MAX) {
-                    printf("\nSuper Petshop Matheus pontieri BCC\n\n");
+                    printf("\nSuper Petshop Matheus Pontieri BCC\n\n");
 
                     printf("Escolha o dia da consulta:\n");
                     printf("Digite 1 para Quarta-Feira\n");
@@ -122,7 +122,7 @@ int main(void) {
                     scanf("%d", &consulta[quant_cons].escolhe_cliente);
 
                     printf("Escolha o Doutor que irá realizar a consulta:\n");
-                    printf("Digite 1 para consulta com o Doutora Matheus pontieri\n");
+                    printf("Digite 1 para consulta com o Doutor Matheus Pontieri\n");
                     printf("Digite 2 para consulta com o Doutor Fabiano\n");
                     scanf("%d", &consulta[quant_cons].escolhe_dr);
 
